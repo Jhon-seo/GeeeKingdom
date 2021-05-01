@@ -1,0 +1,164 @@
+body {
+background-image: 
+ url("Recursos/Imagenes/Imagen-de-fondo.jpeg");
+margin-top: 0px;
+}
+
+ header{
+  width: 100%;
+  margin:0;
+  overflow: hidden;
+  background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+ 
+h1{
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: 0;
+ }
+ 
+ svg{
+  color:black;
+  height:36px;
+  width:36px;
+  border: 3px solid transparent;
+}
+
+ 
+.Menu_horizontal_no_desplegado {
+   display: none;
+}
+
+.Menu_horizontal_desplegado{
+color: blue;
+background-color:white;
+margin-bottom: 20px;
+}
+
+.menuHorizontalContenido{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+
+#QS,#Marvel,#DC,#IC,#DH,#Inicio,#Comunidad{
+  font-size:22px;
+  font-weight: 62px;
+}
+
+#DC:hover{
+  color:blue;
+}
+
+
+#Marvel:hover{
+  color:red;
+}
+
+#IC:hover{
+color:white;
+background-color:black;
+}
+
+h2{
+  text-align: Center;
+}
+
+main{
+ background: rgba(255,255,255,0.3);
+  border-radius: 20px;
+  backdrop-filter: blur(2.3px);
+  border: rgba(000,000,000, 0.3);
+  text-align: center;
+  box-shadow: 0 2px 2px 0 black;
+  width: 65%;
+  margin: auto;
+}
+
+
+
+nav{
+  border:4px solid rgb(0,0,0,.1);
+  background-color: white;
+  text-align:left;
+  width: 100%;
+  height: 20px;
+  display: table;
+}
+
+img{
+  padding: 25px;
+  text-align: center;
+  width: 230px;
+  height:297px;
+  border-radius: 13%;
+}
+
+.Estilo-footer{
+  -webkit-box-shadow: -3px 4px 27px 11px rgba(0,0,0,0.22); 
+  box-shadow: -3px 4px 27px 11px rgba(0,0,0,0.22);
+background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  backdrop-filter: blur(0.01px);
+  color: #A1F20A;
+  font-size: 22px;
+  width: 100%;
+}
+
+.Estilo-footer:after {
+background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#Titulo{
+  font-size: 41px;
+}
+
+.redes_sociales{
+  text-decoration: none;
+  display: block;
+  Font-weight:3px;
+  font-size: 28px;
+  font-stretch: 24px;
+  
+}
+
+hr{
+  background-color:black;
+  color:black;
+  height:2px;
+}
+
+aside{
+  background-color: white;
+}
+
+
+.botonMuestraMenu{
+  display:inline;
+  
+}
+
+.botonOcultaMenu {
+  display:none;
+}
+
+
+.sombra-borde {
+  width:100%;
+  text-align:center;
+  border-radius: 50px;
+  background-color: slateblue;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
